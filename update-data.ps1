@@ -87,8 +87,8 @@ foreach ($vmSku in $vmSkus) {
     Write-Host "Getting prices for $vmSku"
     $response = Invoke-WebRequest $url -UserAgent "GitHub Actions - joelverhagen/data-azure-spot-vms"
     $response.Content | `
-        jq '.Items[] | { armRegionName: .armRegionName, retailPrice: .retailPrice }' | `
-        jq --slurp '. | sort_by(.armRegionName)[]' | `
+        jq '.Items[] | { armRegionName: .armRegionName, retailPrice: .retailPrice, meterId: .meterId }' | `
+        jq --slurp '. | sort_by(.armRegionName, .meterId)[]' | `
         jq --slurp '.' | `
         Out-File (Join-Path $spotPricesDir "$vmSku.json") -Encoding utf8
 }
