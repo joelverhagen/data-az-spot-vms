@@ -16,8 +16,6 @@ else {
     $regions | Out-File $regionsPath -Encoding utf8
 }
 
-exit
-
 if ($allowNoOp -and (Test-Path $vmSkusPath)) {
     $vmSkus = Get-Content $vmSkusPath
 }
