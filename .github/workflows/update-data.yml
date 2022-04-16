@@ -1,0 +1,39 @@
+# Periodically checks the Azure Retail Price API for spot VM availability and prices.
+# Inspired by https://simonwillison.net/2020/Oct/9/git-scraping/
+
+name: Update data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Update data
+        shell: pwsh
+        run: |
+          ./update-data.ps1
+
+      - name: logout
+        run: |
+          az logout
+
+      - name: Commit and push if data has changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date --iso-8601=seconds)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
