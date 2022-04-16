@@ -36,6 +36,8 @@ else {
 
             $vCPUs = [int]$capabilities.vCPUs
             $memoryGB = [int]$capabilities.MemoryGB
+            $cachedDiskBytes = [long]$capabilities.CachedDiskBytes
+            $minCachedDiskBytes = 30 * 1024 * 1024 * 1024
             $cpuArchitectureType = $capabilities.CpuArchitectureType
             $vmDeploymentTypes = $capabilities.VMDeploymentTypes
             $lowPriorityCapable = [Convert]::ToBoolean($capabilities.LowPriorityCapable)
@@ -44,6 +46,7 @@ else {
 
             if ($vCPUs -ge 2 -and $vCPUs -le 16 -and `
                     $memoryGB -ge 4 -and $memoryGB -le 32 -and `
+                    $cachedDiskBytes -ge $minCachedDiskBytes -and `
                     $cpuArchitectureType -eq "x64" -and `
                     $vmDeploymentTypes.Contains("IaaS") -and `
                     $lowPriorityCapable -and `
