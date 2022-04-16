@@ -85,12 +85,10 @@ foreach ($vmSku in $vmSkus) {
     $url = "$($baseUrl)?api-version=$apiVersion&currencyCode=$currencyCode&meterRegion=$meterRegion&`$filter=$($criteria -join " and ")"
 
     Write-Host "Getting prices for $vmSku"
-    $response = Invoke-WebRequest $url -UserAgent "GitHub Action: joelverhagen/data-azure-spot-vms"
+    $response = Invoke-WebRequest $url -UserAgent "GitHub Actions - joelverhagen/data-azure-spot-vms"
     $response.Content | `
         jq '.Items[] | { armRegionName: .armRegionName, retailPrice: .retailPrice }' | `
         jq --slurp '. | sort_by(.armRegionName)[]' | `
         jq --slurp '.' | `
         Out-File (Join-Path $spotPricesDir "$vmSku.json") -Encoding utf8
 }
-
-[DateTime]::UtcNow.ToString("O") | Out-File "last-checked.txt"
