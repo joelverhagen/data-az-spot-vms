@@ -16,7 +16,9 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - uses: azure/login@v1
         with:
@@ -24,12 +26,18 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Update data
+      - name: Update prices
         shell: pwsh
         run: |
           ./update-data.ps1
 
-      - name: logout
+      - name: Update CSV
+        shell: pwsh
+        continue-on-error: true # Workaround for https://github.com/actions/runner/issues/1076
+        run: |
+          ./data-to-csv.ps1
+
+      - name: Logout
         run: |
           az logout
 

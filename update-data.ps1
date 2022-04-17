@@ -1,7 +1,7 @@
 $allowNoOp = $false
-$regionsPath = "regions.txt"
-$vmSkusPath = "vm-skus.txt"
-$spotPricesDir = "spot-prices"
+$regionsPath = Join-Path $PSScriptRoot "regions.txt"
+$vmSkusPath = Join-Path $PSScriptRoot "vm-skus.txt"
+$spotPricesDir = Join-Path $PSScriptRoot "spot-prices"
 
 if ($allowNoOp -and (Test-Path $regionsPath)) {
     $regions = Get-Content $regionsPath
