@@ -1,3 +1,9 @@
+$gitStatus = $(git status --porcelain=v1)
+if (!$gitStatus) {
+    Write-Host "No changes. Skipping CSV update."
+    exit
+}
+
 $spotPricesDir = Join-Path $PSScriptRoot "spot-prices"
 $files = Get-ChildItem (Join-Path $spotPricesDir "*.json")
 $expectedAuthor = "actions@users.noreply.github.com"
@@ -24,7 +30,12 @@ while ($true) {
         foreach ($file in $files) {
             $gitPath = $file.FullName.Substring($PSScriptRoot.Length + 1).Replace("\", "/")
             $sku = $file.BaseName
-            $jsonData = git show "HEAD~$($commitOffset):$gitPath" 2>&1
+            if ($commitOffset -eq 0) {
+                $jsonData = Get-Content $file -Raw
+            }
+            else {
+                $jsonData = git show "HEAD~$($commitOffset):$gitPath" 2>&1
+            }
             if ($LASTEXITCODE -ne 0) { continue }
             $data = $jsonData | ConvertFrom-Json
             foreach ($item in $data) {
