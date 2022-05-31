@@ -39,17 +39,10 @@ foreach ($region in $regions) {
             EncryptionAtHostSupported = [Convert]::ToBoolean($capabilities.EncryptionAtHostSupported);
         }
 
-        $minDiskSizeMB = 30 * 1024 # [smalldisk] Windows images require 30 GB
-        $minDiskSizeBytes = $minDiskSizeMB * 1024 * 1024
-
-        $candidate = $skuInfo.vCPUs -ge 2 -and $skuInfo.vCPUs -le 16 -and `
-            $skuInfo.MemoryGB -ge 4 -and $skuInfo.MemoryGB -le 32 -and `
-        ($skuInfo.CachedDiskBytes -ge $minDiskSizeBytes -or $skuInfo.MaxResourceVolumeMB -ge $minDiskSizeMB) -and `
-            $skuInfo.CpuArchitectureType -eq "x64" -and `
-            $skuInfo.VMDeploymentTypes.Contains("IaaS") -and `
-            $skuInfo.LowPriorityCapable -and `
-            $skuInfo.EphemeralOSDiskSupported -and `
-            $skuInfo.EncryptionAtHostSupported;
+        $candidate = $skuInfo.VMDeploymentTypes.Contains("IaaS") `
+            -and $skuInfo.LowPriorityCapable `
+            -and $skuInfo.MemoryGB -gt 0 `
+            -and $skuInfo.vCPUs -gt 0;
 
         if ($candidate) {
             if (!$skuNameToInfo[$skuInfo.Name]) {
