@@ -1,0 +1,37 @@
+[
+  {
+    "armRegionName": "canadacentral",
+    "retailPrice": 0.2237,
+    "meterId": "4b5d7719-a646-5fa4-88af-8c4c42783116"
+  },
+  {
+    "armRegionName": "eastus",
+    "retailPrice": 0.1864,
+    "meterId": "dfdf9060-ccae-5859-9ff0-4769e3110b2f"
+  },
+  {
+    "armRegionName": "eastus2",
+    "retailPrice": 0.1864,
+    "meterId": "fd1b8eca-e4c4-5862-8552-1d91fa65282c"
+  },
+  {
+    "armRegionName": "northcentralus",
+    "retailPrice": 0.2237,
+    "meterId": "725e7627-1a16-5f01-80fb-2891e5a8c8b7"
+  },
+  {
+    "armRegionName": "southcentralus",
+    "retailPrice": 0.2237,
+    "meterId": "21f02f20-288c-537c-b7b3-e05cf7af41fa"
+  },
+  {
+    "armRegionName": "westus2",
+    "retailPrice": 0.1864,
+    "meterId": "a91689d1-acb9-52b3-8777-b8f58f8cad08"
+  },
+  {
+    "armRegionName": "westus3",
+    "retailPrice": 0.2423,
+    "meterId": "d764fefa-7cb3-56a0-8c8d-fb8d9ce8564e"
+  }
+]

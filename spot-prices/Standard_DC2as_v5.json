@@ -1,0 +1,12 @@
+[
+  {
+    "armRegionName": "eastus",
+    "retailPrice": 0.054,
+    "meterId": "c1016b15-67c3-5fa6-8a54-140cf6e85c71"
+  },
+  {
+    "armRegionName": "westus",
+    "retailPrice": 0.07,
+    "meterId": "f888afc0-9fe9-513e-a777-46fb91008865"
+  }
+]
