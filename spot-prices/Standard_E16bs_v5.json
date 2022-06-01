@@ -35,6 +35,11 @@
     "meterId": "a43d68d3-e929-5735-b59e-523d8319ea6f"
   },
   {
+    "armRegionName": "westcentralus",
+    "retailPrice": 0.572,
+    "meterId": "5cc255ec-b42f-5b59-b0f7-be2d75a93d0c"
+  },
+  {
     "armRegionName": "westus",
     "retailPrice": 0.5344,
     "meterId": "de003a3e-debb-5f61-9eec-c988120970be"

@@ -10,6 +10,11 @@
     "meterId": "9733e3b9-1d9e-57ae-ab6b-6b4a695641f9"
   },
   {
+    "armRegionName": "eastus",
+    "retailPrice": 0.1808,
+    "meterId": "9c4f07f2-210e-5b94-911a-8418614d451f"
+  },
+  {
     "armRegionName": "eastus2",
     "retailPrice": 0.1808,
     "meterId": "f846ad82-9801-512b-8b2f-986dfe9467f5"
