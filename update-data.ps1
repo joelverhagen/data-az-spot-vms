@@ -51,7 +51,7 @@ foreach ($region in $regions) {
             }
             else {
                 if (Compare-Object $skuNameToInfo[$skuInfo.Name].PSObject.Properties $skuInfo.PSObject.Properties) {
-                    throw "Found inconsistent SKU info. Region $region is different than $($skuNameToRegions[$skuInfo.Name] -join ', ')."
+                    throw "Found inconsistent SKU info for $($skuInfo.Name). Region $region is different than $($skuNameToRegions[$skuInfo.Name] -join ', ')."
                 }
                 $skuNameToRegions[$skuInfo.Name] = ($skuNameToRegions[$skuInfo.Name] + @($region)) | Sort-Object
             }
