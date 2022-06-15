@@ -33,13 +33,12 @@ foreach ($region in $regions) {
             CachedDiskBytes           = [long]$capabilities.CachedDiskBytes;
             MaxResourceVolumeMB       = [long]$capabilities.MaxResourceVolumeMB;
             CpuArchitectureType       = $capabilities.CpuArchitectureType;
-            VMDeploymentTypes         = $capabilities.VMDeploymentTypes;
             LowPriorityCapable        = [Convert]::ToBoolean($capabilities.LowPriorityCapable);
             EphemeralOSDiskSupported  = [Convert]::ToBoolean($capabilities.EphemeralOSDiskSupported);
             EncryptionAtHostSupported = [Convert]::ToBoolean($capabilities.EncryptionAtHostSupported);
         }
 
-        $candidate = $skuInfo.VMDeploymentTypes.Contains("IaaS") `
+        $candidate = $capabilities.VMDeploymentTypes.Contains("IaaS") `
             -and $skuInfo.LowPriorityCapable `
             -and $skuInfo.MemoryGB -gt 0 `
             -and $skuInfo.vCPUs -gt 0;
