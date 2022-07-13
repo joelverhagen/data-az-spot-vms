@@ -480,9 +480,13 @@ Standard_H16mr
 Standard_H16r
 Standard_H8
 Standard_H8m
+Standard_HB120-16rs_v2
 Standard_HB120-16rs_v3
+Standard_HB120-32rs_v2
 Standard_HB120-32rs_v3
+Standard_HB120-64rs_v2
 Standard_HB120-64rs_v3
+Standard_HB120-96rs_v2
 Standard_HB120-96rs_v3
 Standard_HB120rs_v2
 Standard_HB120rs_v3

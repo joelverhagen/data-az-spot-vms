@@ -26,17 +26,17 @@
   },
   {
     "armRegionName": "southcentralus",
-    "retailPrice": 0.036435,
+    "retailPrice": 0.0347,
     "meterId": "9166832e-ea54-53fb-a327-d1e54629fbca"
   },
   {
     "armRegionName": "westus",
-    "retailPrice": 0.04053,
+    "retailPrice": 0.0386,
     "meterId": "30b2af6c-5db2-5824-b75a-6534fbc37e69"
   },
   {
     "armRegionName": "westus3",
-    "retailPrice": 0.04235,
+    "retailPrice": 0.0385,
     "meterId": "d3ac62bf-4230-5961-995d-bc59f0ee1986"
   }
 ]
