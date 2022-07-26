@@ -426,7 +426,7 @@
 "Standard_EC2as_v5","2","16","0","0","x64","True","False","True","eastus,westus"
 "Standard_EC32ads_v5","32","192","0","1228800","x64","True","True","True","eastus,westus"
 "Standard_EC32as_v5","32","192","0","0","x64","True","False","True","eastus,westus"
-"Standard_EC48ads_v5","48","384","0","1843200","x64","True","True","True","eastus,westus"
+"Standard_EC48ads_v5","48","384","0","1843200","x64","True","True","True","eastus,eastus2,westus"
 "Standard_EC48as_v5","48","384","0","0","x64","True","False","True","eastus,westus"
 "Standard_EC4ads_v5","4","32","0","153600","x64","True","True","True","eastus,westus"
 "Standard_EC4as_v5","4","32","0","0","x64","True","False","True","eastus,westus"
