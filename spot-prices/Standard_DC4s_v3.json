@@ -28,5 +28,10 @@
     "armRegionName": "westus",
     "retailPrice": 0.1792,
     "meterId": "0a03286b-d997-5764-a3ad-402721122b14"
+  },
+  {
+    "armRegionName": "westus2",
+    "retailPrice": 0.1536,
+    "meterId": "0266906b-4413-549d-87b4-ac93d8ab2b2e"
   }
 ]
