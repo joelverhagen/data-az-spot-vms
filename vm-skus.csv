@@ -140,7 +140,7 @@
 "Standard_DC24ds_v3","24","192","0","1843200","x64","True","True","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus"
 "Standard_DC24s_v3","24","192","0","0","x64","True","False","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus"
 "Standard_DC2ads_v5","2","8","0","76800","x64","True","True","True","eastus,westus"
-"Standard_DC2as_v5","2","8","0","0","x64","True","False","True","eastus,westus"
+"Standard_DC2as_v5","2","8","0","0","x64","True","False","True","eastus,eastus2,westus"
 "Standard_DC2ds_v3","2","16","0","153600","x64","True","True","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus"
 "Standard_DC2s_v2","2","8","45088768","102400","x64","True","True","True","canadacentral,canadaeast,eastus,northcentralus,southcentralus,westus,westus2"
 "Standard_DC2s_v3","2","16","0","0","x64","True","False","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus"
