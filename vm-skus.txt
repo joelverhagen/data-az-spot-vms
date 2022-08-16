@@ -5,15 +5,6 @@ Standard_A4_v2
 Standard_A4m_v2
 Standard_A8_v2
 Standard_A8m_v2
-Standard_B12ms
-Standard_B16ms
-Standard_B1ms
-Standard_B1s
-Standard_B20ms
-Standard_B2ms
-Standard_B2s
-Standard_B4ms
-Standard_B8ms
 Standard_D1
 Standard_D1_v2
 Standard_D11
