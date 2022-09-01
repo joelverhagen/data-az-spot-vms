@@ -5,6 +5,11 @@
     "meterId": "3c075b1b-3787-5340-a92d-60e4627ef7b6"
   },
   {
+    "armRegionName": "eastus2",
+    "retailPrice": 0.64,
+    "meterId": "88a7dc7b-ae9b-5acc-a15d-03cc9e11df6e"
+  },
+  {
     "armRegionName": "southcentralus",
     "retailPrice": 0.768,
     "meterId": "6747b593-15da-56a9-b6cb-7edf8bcf51e3"

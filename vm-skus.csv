@@ -620,6 +620,7 @@
 "Standard_NC8ads_A10_v4","8","100","0","737280","x64","True","True","True","westus3"
 "Standard_NC8as_T4_v3","8","56","154619000000","360448","x64","True","True","True","eastus,eastus2,northcentralus,southcentralus,westus,westus2"
 "Standard_NC96ads_A100_v4","96","880","1099511627776","262144","x64","True","True","True","eastus,eastus2,southcentralus"
+"Standard_NCC24ads_A100_v4","24","220","322000000000","1150000","x64","True","True","True","eastus2"
 "Standard_ND40rs_v2","40","672","1099511627776","2969600","x64","True","True","True","eastus,southcentralus"
 "Standard_ND96amsr_A100_v4","96","1924","1099511627776","2969600","x64","True","True","True","eastus2,southcentralus"
 "Standard_ND96asr_v4","96","900","1099511627776","2969600","x64","True","True","True","eastus,southcentralus,westus2"
