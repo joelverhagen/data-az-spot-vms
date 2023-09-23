@@ -113,7 +113,6 @@ foreach ($vmSku in $vmSkuNames) {
     $url = "$($baseUrl)?api-version=$apiVersion&currencyCode=$currencyCode&meterRegion=$meterRegion&`$filter=$($criteria -join " and ")"
 
     Write-Host "Getting prices for $vmSku"
-    Write-Host "GET $url" -ForegroundColor DarkGray
     $response = Invoke-WebRequest $url -UserAgent "GitHub Actions - joelverhagen/data-azure-spot-vms" -UseBasicParsing
     $response.Content | `
         jq '.Items[] | { armRegionName: .armRegionName, retailPrice: .retailPrice, meterId: .meterId }' | `
