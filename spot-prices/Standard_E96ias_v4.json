@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "armRegionName": "canadacentral",
+    "retailPrice": 0.6624,
+    "meterId": "66aefa58-30bc-5a24-90f8-9dbae59a7a1c"
+  },
+  {
+    "armRegionName": "canadaeast",
+    "retailPrice": 0.6624,
+    "meterId": "a61b465c-35fc-50f2-9016-947fa2e9a596"
+  },
+  {
+    "armRegionName": "westus3",
+    "retailPrice": 0.6048,
+    "meterId": "a7d8c3fa-ad18-5461-8b89-8c5a7bbbc67f"
+  }
+]

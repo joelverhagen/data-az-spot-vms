@@ -1,12 +1,22 @@
 [
   {
+    "armRegionName": "centralus",
+    "retailPrice": 1.4896,
+    "meterId": "061c2931-e91e-5305-936f-66be8f62fd69"
+  },
+  {
     "armRegionName": "eastus",
-    "retailPrice": 1.4504,
+    "retailPrice": 1.544176,
     "meterId": "84ec8db6-0ad8-5a8a-a278-da2c0485236b"
   },
   {
+    "armRegionName": "eastus2",
+    "retailPrice": 1.3184,
+    "meterId": "37d56f09-bfa9-5d21-91df-19f1056ae138"
+  },
+  {
     "armRegionName": "westus",
-    "retailPrice": 1.7176,
+    "retailPrice": 1.829024,
     "meterId": "d82ad8d6-fe73-5436-953e-c32b5356bcff"
   }
 ]
