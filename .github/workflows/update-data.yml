@@ -37,6 +37,11 @@ jobs:
         run: |
           ./data-to-csv.ps1
 
+      - name: Update SkuInfo.bicep
+        shell: pwsh
+        run: |
+          ./build-sku-info.ps1
+
       - name: Logout
         run: |
           az logout
