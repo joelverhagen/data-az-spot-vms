@@ -1321,14 +1321,6 @@ var skuInfo = {
     diskSizeGB: 200
     diffDiskPlacement: 'CacheDisk'
   }
-  Standard_E80ids_v4: {
-    diskSizeGB: 4260
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_E80is_v4: {
-    diskSizeGB: 1600
-    diffDiskPlacement: 'CacheDisk'
-  }
   'Standard_E8-2ads_v5': {
     diskSizeGB: 300
     diffDiskPlacement: 'ResourceDisk'
@@ -1375,6 +1367,14 @@ var skuInfo = {
   }
   'Standard_E8-4s_v4': {
     diskSizeGB: 200
+    diffDiskPlacement: 'CacheDisk'
+  }
+  Standard_E80ids_v4: {
+    diskSizeGB: 4260
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_E80is_v4: {
+    diskSizeGB: 1600
     diffDiskPlacement: 'CacheDisk'
   }
   Standard_E8a_v4: {
