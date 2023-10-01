@@ -1,5 +1,10 @@
 [
   {
+    "armRegionName": "canadacentral",
+    "retailPrice": 0.396,
+    "meterId": "f5c69b14-45a7-56bf-9649-ff635ef90aed"
+  },
+  {
     "armRegionName": "eastus",
     "retailPrice": 0.165,
     "meterId": "0ffc3877-7811-5e3d-8921-f5bb7a82c72b"

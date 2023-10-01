@@ -16,12 +16,12 @@
   },
   {
     "armRegionName": "eastus",
-    "retailPrice": 0.272333,
+    "retailPrice": 0.2304,
     "meterId": "f3baab1d-21c0-5b7e-ae97-40538690ad29"
   },
   {
     "armRegionName": "eastus2",
-    "retailPrice": 0.418867,
+    "retailPrice": 0.335002,
     "meterId": "a621cf5d-5030-5e82-b5a9-e0215938e415"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "armRegionName": "westus3",
-    "retailPrice": 0.253901,
+    "retailPrice": 0.266573,
     "meterId": "f8a94a9d-b1d3-57ee-812f-f77b777de6ca"
   }
 ]

@@ -1,12 +1,12 @@
 [
   {
     "armRegionName": "canadacentral",
-    "retailPrice": 11.898,
+    "retailPrice": 12.028878,
     "meterId": "6eb0b522-43fa-5d7c-a6ff-d8329b25772b"
   },
   {
     "armRegionName": "canadaeast",
-    "retailPrice": 11.898,
+    "retailPrice": 12.040776,
     "meterId": "a2ea7bd6-2b4a-5fb4-bfde-d848fc390f14"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "armRegionName": "northcentralus",
-    "retailPrice": 9.915,
+    "retailPrice": 10.01415,
     "meterId": "cab2369c-8338-5090-baa1-f689267e1dd7"
   },
   {

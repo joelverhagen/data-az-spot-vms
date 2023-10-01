@@ -6,7 +6,7 @@
   },
   {
     "armRegionName": "canadaeast",
-    "retailPrice": 0.236698,
+    "retailPrice": 0.2208,
     "meterId": "76381698-6b47-5791-897a-5d1a0f9c884d"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "armRegionName": "eastus",
-    "retailPrice": 0.264499,
+    "retailPrice": 0.227606,
     "meterId": "ebcda605-4012-5061-afff-2a7487726dc3"
   },
   {
     "armRegionName": "eastus2",
-    "retailPrice": 0.362477,
+    "retailPrice": 0.289901,
     "meterId": "7a89b72d-f43e-5712-a5e6-571988bd8984"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "armRegionName": "westus3",
-    "retailPrice": 0.238291,
+    "retailPrice": 0.244138,
     "meterId": "fe0d522e-43b7-564d-a5a0-89087be80595"
   }
 ]
