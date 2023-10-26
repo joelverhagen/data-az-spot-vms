@@ -579,7 +579,7 @@
 "Standard_G1","2","28","0","393216","x64","True","False","False","canadacentral,eastus"
 "Standard_G2","4","56","0","786432","x64","True","False","False","canadacentral,eastus"
 "Standard_G3","8","112","0","1572864","x64","True","False","False","canadacentral,eastus"
-"Standard_G4","16","224","0","3145728","x64","True","False","False","canadacentral"
+"Standard_G4","16","224","0","3145728","x64","True","False","False","canadacentral,eastus"
 "Standard_G5","32","448","0","6291456","x64","True","False","False","canadacentral"
 "Standard_GS1","2","28","283467841536","57344","x64","True","True","True","canadacentral"
 "Standard_GS2","4","56","566935683072","114688","x64","True","True","True","canadacentral"
