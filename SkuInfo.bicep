@@ -2165,6 +2165,22 @@ var skuInfo = {
     diskSizeGB: 336
     diffDiskPlacement: 'ResourceDisk'
   }
+  Standard_NG16ads_V620_v1: {
+    diskSizeGB: 512
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_NG32adms_V620_v1: {
+    diskSizeGB: 1024
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_NG32ads_V620_v1: {
+    diskSizeGB: 1024
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_NG8ads_V620_v1: {
+    diskSizeGB: 256
+    diffDiskPlacement: 'ResourceDisk'
+  }
   Standard_NP10s: {
     diskSizeGB: 736
     diffDiskPlacement: 'ResourceDisk'
