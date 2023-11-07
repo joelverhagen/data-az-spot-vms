@@ -2161,9 +2161,21 @@ var skuInfo = {
     diskSizeGB: 2900
     diffDiskPlacement: 'ResourceDisk'
   }
+  Standard_ND48s_H100_v5: {
+    diskSizeGB: 1024
+    diffDiskPlacement: 'ResourceDisk'
+  }
   Standard_ND6s: {
     diskSizeGB: 336
     diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_ND96is_H100_v5: {
+    diskSizeGB: 1024
+    diffDiskPlacement: 'CacheDisk'
+  }
+  Standard_ND96isr_H100_v5: {
+    diskSizeGB: 1024
+    diffDiskPlacement: 'CacheDisk'
   }
   Standard_NG16ads_V620_v1: {
     diskSizeGB: 512

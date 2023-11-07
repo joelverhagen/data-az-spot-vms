@@ -709,7 +709,10 @@ Standard_ND12s
 Standard_ND24rs
 Standard_ND24s
 Standard_ND40rs_v2
+Standard_ND48s_H100_v5
 Standard_ND6s
+Standard_ND96is_H100_v5
+Standard_ND96isr_H100_v5
 Standard_NG16ads_V620_v1
 Standard_NG32adms_V620_v1
 Standard_NG32ads_V620_v1
