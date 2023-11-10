@@ -1,0 +1,12 @@
+[
+  {
+    "armRegionName": "centralus",
+    "retailPrice": 0.97625,
+    "meterId": "30c00f65-d121-5bd0-9930-17428bef5ea6"
+  },
+  {
+    "armRegionName": "eastus2",
+    "retailPrice": 0.864,
+    "meterId": "a3cc946f-4ed6-5d70-aa95-6e7bc78e6fd5"
+  }
+]
