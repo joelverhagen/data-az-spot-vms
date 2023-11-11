@@ -1793,7 +1793,15 @@ var skuInfo = {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
+  'Standard_HB176-144s_v4': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
   'Standard_HB176-24rs_v4': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  'Standard_HB176-24s_v4': {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -1801,11 +1809,23 @@ var skuInfo = {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
+  'Standard_HB176-48s_v4': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
   'Standard_HB176-96rs_v4': {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
+  'Standard_HB176-96s_v4': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
   Standard_HB176rs_v4: {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_HB176s_v4: {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -1841,7 +1861,15 @@ var skuInfo = {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
+  'Standard_HX176-144s': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
   'Standard_HX176-24rs': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  'Standard_HX176-24s': {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -1849,11 +1877,23 @@ var skuInfo = {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
+  'Standard_HX176-48s': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
   'Standard_HX176-96rs': {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
+  'Standard_HX176-96s': {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
   Standard_HX176rs: {
+    diskSizeGB: 480
+    diffDiskPlacement: 'ResourceDisk'
+  }
+  Standard_HX176s: {
     diskSizeGB: 480
     diffDiskPlacement: 'ResourceDisk'
   }
