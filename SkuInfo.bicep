@@ -573,10 +573,6 @@ var skuInfo = {
     diskSizeGB: 1200
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_DC16eds_v5: {
-    diskSizeGB: 600
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_DC1ds_v3: {
     diskSizeGB: 75
     diffDiskPlacement: 'ResourceDisk'
@@ -597,10 +593,6 @@ var skuInfo = {
     diskSizeGB: 150
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_DC2eds_v5: {
-    diskSizeGB: 75
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_DC2s_v2: {
     diskSizeGB: 100
     diffDiskPlacement: 'ResourceDisk'
@@ -617,10 +609,6 @@ var skuInfo = {
     diskSizeGB: 2400
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_DC32eds_v5: {
-    diskSizeGB: 1200
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_DC48ads_cc_v5: {
     diskSizeGB: 1800
     diffDiskPlacement: 'ResourceDisk'
@@ -631,10 +619,6 @@ var skuInfo = {
   }
   Standard_DC48ds_v3: {
     diskSizeGB: 2400
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_DC48eds_v5: {
-    diskSizeGB: 1800
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_DC4ads_cc_v5: {
@@ -649,10 +633,6 @@ var skuInfo = {
     diskSizeGB: 300
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_DC4eds_v5: {
-    diskSizeGB: 150
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_DC4s_v2: {
     diskSizeGB: 200
     diffDiskPlacement: 'ResourceDisk'
@@ -662,10 +642,6 @@ var skuInfo = {
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_DC64ads_v5: {
-    diskSizeGB: 2400
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_DC64eds_v5: {
     diskSizeGB: 2400
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -685,20 +661,12 @@ var skuInfo = {
     diskSizeGB: 600
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_DC8eds_v5: {
-    diskSizeGB: 300
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_DC96ads_cc_v5: {
     diskSizeGB: 3600
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_DC96ads_v5: {
     diskSizeGB: 2400
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_DC96eds_v5: {
-    diskSizeGB: 3600
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_DS1: {
@@ -1505,23 +1473,11 @@ var skuInfo = {
     diskSizeGB: 1344
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_EC128eds_v5: {
-    diskSizeGB: 3600
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_EC128ieds_v5: {
-    diskSizeGB: 3600
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_EC16ads_cc_v5: {
     diskSizeGB: 600
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_EC16ads_v5: {
-    diskSizeGB: 600
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_EC16eds_v5: {
     diskSizeGB: 600
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -1537,19 +1493,11 @@ var skuInfo = {
     diskSizeGB: 75
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_EC2eds_v5: {
-    diskSizeGB: 75
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_EC32ads_cc_v5: {
     diskSizeGB: 1200
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_EC32ads_v5: {
-    diskSizeGB: 1200
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_EC32eds_v5: {
     diskSizeGB: 1200
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -1561,19 +1509,11 @@ var skuInfo = {
     diskSizeGB: 1800
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_EC48eds_v5: {
-    diskSizeGB: 1800
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_EC4ads_cc_v5: {
     diskSizeGB: 150
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_EC4ads_v5: {
-    diskSizeGB: 150
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_EC4eds_v5: {
     diskSizeGB: 150
     diffDiskPlacement: 'ResourceDisk'
   }
@@ -1585,19 +1525,11 @@ var skuInfo = {
     diskSizeGB: 2400
     diffDiskPlacement: 'ResourceDisk'
   }
-  Standard_EC64eds_v5: {
-    diskSizeGB: 2400
-    diffDiskPlacement: 'ResourceDisk'
-  }
   Standard_EC8ads_cc_v5: {
     diskSizeGB: 300
     diffDiskPlacement: 'ResourceDisk'
   }
   Standard_EC8ads_v5: {
-    diskSizeGB: 300
-    diffDiskPlacement: 'ResourceDisk'
-  }
-  Standard_EC8eds_v5: {
     diskSizeGB: 300
     diffDiskPlacement: 'ResourceDisk'
   }
