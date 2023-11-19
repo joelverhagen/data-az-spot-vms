@@ -460,7 +460,7 @@
 "Standard_E64is_v3","64","432","1717986918400","884736","x64","True","True","True","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,westcentralus,westus,westus2"
 "Standard_E64s_v3","64","432","1717986918400","884736","x64","True","True","True","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
 "Standard_E64s_v4","64","504","1717986918400","0","x64","True","False","True","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
-"Standard_E64s_v5","64","512","0","0","x64","True","False","True","canadacentral,canadaeast,centralus,eastus,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
+"Standard_E64s_v5","64","512","0","0","x64","True","False","True","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
 "Standard_E8_v3","8","64","0","204800","x64","True","False","False","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
 "Standard_E8_v4","8","64","214748364800","0","x64","True","False","False","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
 "Standard_E8_v5","8","64","0","0","x64","True","False","True","canadacentral,canadaeast,centralus,eastus,eastus2,northcentralus,southcentralus,westcentralus,westus,westus2,westus3"
