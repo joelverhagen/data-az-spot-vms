@@ -1,37 +1,37 @@
 [
   {
     "armRegionName": "canadacentral",
-    "retailPrice": 0.435153,
+    "retailPrice": 0.3974,
     "meterId": "16ddb768-8160-559e-97b8-a92e6ccbb1d2"
   },
   {
     "armRegionName": "canadaeast",
-    "retailPrice": 0.425218,
+    "retailPrice": 0.3974,
     "meterId": "7d2e710a-bd25-5528-82b6-c7a706b97bb8"
   },
   {
     "armRegionName": "centralus",
-    "retailPrice": 0.46074,
+    "retailPrice": 0.42,
     "meterId": "378dc1b2-0368-5ae9-a9b0-8c11396b570a"
   },
   {
     "armRegionName": "eastus",
-    "retailPrice": 0.542898,
+    "retailPrice": 0.434391,
     "meterId": "c7e86d3a-d982-51f7-9667-c3b3331dd4c3"
   },
   {
     "armRegionName": "eastus2",
-    "retailPrice": 0.524753,
+    "retailPrice": 0.472133,
     "meterId": "6815ffae-c26a-5d22-b05f-25f181a29429"
   },
   {
     "armRegionName": "northcentralus",
-    "retailPrice": 0.389755,
+    "retailPrice": 0.3629,
     "meterId": "b47b2e5e-2093-530d-8a6f-4988f7ee7417"
   },
   {
     "armRegionName": "southcentralus",
-    "retailPrice": 0.456431,
+    "retailPrice": 0.4199,
     "meterId": "3f4fcf3b-f073-5856-ac77-ea942ccddc02"
   },
   {
@@ -41,17 +41,17 @@
   },
   {
     "armRegionName": "westus",
-    "retailPrice": 0.435456,
+    "retailPrice": 0.4032,
     "meterId": "9bae34f6-ed7b-5373-8b47-47c7eae33a8f"
   },
   {
     "armRegionName": "westus2",
-    "retailPrice": 0.39665,
+    "retailPrice": 0.3629,
     "meterId": "c9b7348e-0c72-5e04-92c2-51a5d8acf7c4"
   },
   {
     "armRegionName": "westus3",
-    "retailPrice": 0.430036,
+    "retailPrice": 0.3629,
     "meterId": "52fd6039-155b-5708-9933-ca8e9a0eb297"
   }
 ]

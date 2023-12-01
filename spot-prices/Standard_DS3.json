@@ -5,6 +5,11 @@
     "meterId": "3d8229cb-995e-5e84-ac1a-9429d13f55fd"
   },
   {
+    "armRegionName": "canadaeast",
+    "retailPrice": 0.0598,
+    "meterId": "1c6e43be-0151-5292-bc0a-6629f01ec4d4"
+  },
+  {
     "armRegionName": "centralus",
     "retailPrice": 0.0308,
     "meterId": "20c2c9c1-8b37-5f82-8c9a-342d975abcbf"

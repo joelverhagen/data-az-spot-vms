@@ -724,7 +724,7 @@
 "Standard_NC48ads_A100_v4","48","440","549755813888","131072","x64","True","True","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus,westus2,westus3"
 "Standard_NC4as_T4_v3","4","28","154619000000","180224","x64","True","True","True","canadacentral,centralus,eastus,eastus2,northcentralus,southcentralus,westus,westus2"
 "Standard_NC6","6","56","0","348160","x64","True","False","False","eastus,northcentralus,southcentralus"
-"Standard_NC64as_T4_v3","64","440","154618822656","2883584","x64","True","True","True","canadacentral,centralus,eastus,eastus2,northcentralus,southcentralus,westus,westus2"
+"Standard_NC64as_T4_v3","64","440","154618822656","2883584","x64","True","True","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus,westus2"
 "Standard_NC6s_v2","6","112","343597383680","753664","x64","True","True","True","eastus,southcentralus,westus2"
 "Standard_NC6s_v3","6","112","0","344064","x64","True","True","True","canadacentral,centralus,eastus,eastus2,southcentralus,westus,westus2,westus3"
 "Standard_NC8ads_A10_v4","8","100","0","737280","x64","True","True","True","eastus,westus3"
