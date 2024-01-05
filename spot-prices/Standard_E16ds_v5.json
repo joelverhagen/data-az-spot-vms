@@ -16,22 +16,22 @@
   },
   {
     "armRegionName": "eastus",
-    "retailPrice": 0.12096,
+    "retailPrice": 0.1152,
     "meterId": "d2f07d0f-4aaf-5cb0-8c9a-455b62f07d01"
   },
   {
     "armRegionName": "eastus2",
-    "retailPrice": 0.147341,
+    "retailPrice": 0.134899,
     "meterId": "f51148f1-b839-5343-8818-1f5cdba3ef90"
   },
   {
     "armRegionName": "northcentralus",
-    "retailPrice": 0.127066,
+    "retailPrice": 0.1152,
     "meterId": "8d2fe0e3-6c88-5abc-8899-a45ddd4f9a48"
   },
   {
     "armRegionName": "southcentralus",
-    "retailPrice": 0.14511,
+    "retailPrice": 0.149809,
     "meterId": "06a1ab1e-3cac-5416-bdeb-19b6aac0777f"
   },
   {
